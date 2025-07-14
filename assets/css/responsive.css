@@ -1,5 +1,50 @@
-@media (max-width: 1200px) {
-    header{
-        display: none;
-    }
+@media (max-width: 992px) {
+   header{
+    display: none;
+   }
+
+   #heading_two .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   }
+   #heading_two .container .mobile_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .offcanvas{
+    max-width: 350px;
+    width: 100%;
+   }
+   /* MOBILE MENU STARTS */
+  .offcanvas .mobile_toggle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    outline: 1px solid #0d600975;
+    border-radius: 50px;
+    margin: 8px;
+    color: #000000e3;
+   }
+   .dropdown-toggle::after{
+    display: none;
+   }
+
+   .offcanvas .mobile_toggle span{
+    line-height: 0;
+   }
+
+   .offcanvas .dropdown-menu{
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #0d600975;
+   }
+   .offcanvas .dropdown-menu a{
+    padding: 9px;
+   }
+   /* MOBILE MENU END */
  }
